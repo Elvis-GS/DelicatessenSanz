@@ -312,7 +312,7 @@ header{
     height: 100vh;
     background-position: center;
     position: center;
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
     justify-content: center;
     align-items: center;
@@ -323,7 +323,7 @@ header{
     height: 100vh;
     background-position: center;
     position: center;
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
     justify-content: center;
     align-items: center;
