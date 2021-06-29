@@ -1,0 +1,267 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    
+   
+}
+header{
+    width: 100%;
+    height: 58px;
+    background-color:rgba(159, 17, 26, 0.507);
+}
+.cab_nav{
+    width: 100%;
+    padding: 20px;
+    text-align: right;
+    position: fixed;
+    top: 0px;
+}
+.cab_nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 4px 46.1px;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    /*font-family:sans-serif;*/
+    cursor: pointer;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    /*letra sacada de font de google, recordar descargar los archivos y anexarlos a los de la pagina web*/
+}
+.cab_nav ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.904);
+    
+}
+.nomb_logo{
+width: 300px;
+padding: 0px 20px;
+float: left;
+position: relative;
+top: -10px;;
+left: 30px;
+color: rgb(255, 255, 255);
+font-size: 45px;
+font-family: 'Stardos Stencil', cursive;
+-webkit-text-stroke:3px rgba(0, 0, 0, 0.5);
+        -moz-text-stroke:3px rgba(0, 0, 0, 0.5);
+        -o-text-stroke:3px rgba(0, 0, 0, 0.5);
+        /* prefijos para que la pagina funcione con cualquier navegador*/
+}
+.logo_img{
+    width:55px;
+    position: absolute;
+    /*-moz-transform: translateX(-1520px) translateY(25px);
+    -webkit-transform: translateX(-1520px) translateY(25px);
+    -o-transform: translateX(-1520px) translateY(25px);
+    /* prefijos para que la pagina funcione con cualquier navegador*/
+     top: 2px;
+    left: 8px;
+
+}
+.contenedor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    padding: 25px 5px;
+    border: solid;
+    background-color: rgba(38, 4, 25, 0.31);
+    text-align: center;
+    /* prefijos para que la pagina funcione con cualquier navegador*/
+
+}
+.titulo_cont{
+    -webkit-text-stroke:1.2px rgb(7, 7, 7);
+        -moz-text-stroke: 1.2px rgb(7, 7, 7);
+        -o-text-stroke: 1.2px rgb(7, 7, 7);
+        background-image: url(imagenes/texto3.jpg);
+        -webkit-background-clip: text;
+         -moz-background-clip: text;
+          -o-background-clip: text;
+     font-family: 'Abril Fatface', cursive;
+    font-size:90px;
+    text-align: center;
+    color: transparent;
+    padding: 30px 30px;
+    /* prefijos para que la pagina funcione con cualquier navegador*/
+
+}
+.parrafo_cont{
+    -webkit-text-stroke: 1.8px rgb(0, 0, 0);
+        -moz-text-stroke: 1.8px rgb(0, 0, 0);
+        -o-text-stroke: 1.8px rgb(0, 0, 0);
+       background-image: url(imagenes/texto4.jpg);
+         -webkit-background-clip: text;
+         -moz-background-clip: text;
+          -o-background-clip: text;
+    color: /*rgba(255, 255, 255, 0.911)*/ transparent;
+    font-size: 60px;
+    text-align:justify;
+    font-family: 'Stardos Stencil', cursive;
+    /* prefijos para que la pagina funcione con cualquier navegador*/
+
+}
+.parrafo_cont1{
+    -webkit-text-stroke: 1.6px rgb(0, 0, 0);
+        -moz-text-stroke: 1.6px rgb(0, 0, 0);
+        -o-text-stroke: 1.6px rgb(0, 0, 0);
+        background-image: url(imagenes/texto4.jpg);
+         -webkit-background-clip: text;
+         -moz-background-clip: text;
+          -o-background-clip: text;
+    color: /*rgba(255, 255, 255, 0.911)*/ transparent;
+    font-size: 45px;
+    text-align:justify;
+    font-family: 'Stardos Stencil', cursive;
+    /* prefijos para que la pagina funcione con cualquier navegador*/
+
+
+}
+.video{
+    position: fixed;
+    width: 195.5vh;
+    top: 50%;
+    left:50%;
+     *-moz-transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%) ;
+    -o-transform: translateY(-50%) translateX(-50%);
+    z-index: -1;
+   
+  
+  
+    
+}
+.foot{
+    background-color: rgba(17, 17, 17, 0.49);
+bottom:0px;
+width: 100%;
+padding: 20px 0px;
+position: absolute;
+}
+.foot_p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font: size 30px;
+    font-family: 'Stardos Stencil', cursive;
+    -webkit-text-stroke:1px rgba(0, 0, 0, 0.664);
+        -moz-text-stroke:1px rgba(0, 0, 0, 0.582);
+        -o-text-stroke:1px rgba(0, 0, 0, 0.582);
+        /* prefijos para que la pagina funcione con cualquier navegador*/
+
+}
+.marca{
+    background-color:rgba(19, 18, 18, 0.42);
+}
+
+#bar, .icon-menu{
+    display: none;
+
+}
+@media screen and (max-width: 750px){
+   #bar{
+       width: 100%;
+       height: 70px;
+       position: fixed;
+       top:0;
+       background: #0000008a;
+       z-index: 10000;
+       display: none;
+ }
+
+
+.icon-menu{
+    display: block;
+    color: rgb(255 255 255);
+    font-size: 50px;
+    left: 15px;
+    margin-top: 15px;
+    position: absolute;
+    z-index: 1000000;
+
+}
+
+header{
+    height: 75px;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(165, 11, 24, 0.253);
+    top:0;
+    z-index:10;
+}
+
+.cab_nav{
+    width: 70%;
+    height: 100;
+    position: fixed;
+    margin: 0;
+    transform: translateX(-100%);
+    background-color: rgba(21,19,17,1); 
+    transition: all 0.8s ease-in;
+
+}
+.logo_img{
+    display: none;
+}
+
+.nomb_logo{
+    display:none;
+}
+
+.barra{
+    color: rgba(255, 255, 255, 0.925);
+    font-family: 'Stardos Stencil', cursive;
+    -webkit-text-stroke:1.7px rgba(0, 0, 0, 0.753);
+        -moz-text-stroke:1.7px rgba(0, 0, 0, 0.5);
+        -o-text-stroke:1.7px rgba(0, 0, 0, 0.5);
+        text-decoration: none;
+    padding: 0px 6%;
+    position: static;
+    font-size: 65px;
+}
+
+header .cab_nav ul li{
+    display: block;
+    border-bottom: 1px solid rgb(255, 255, 255,0.1);
+    padding: 10px 0xp;
+    width: 350px;
+    text-align: center;
+    margin-top: 20%;
+}
+
+
+
+
+.video{
+    position: fixed;
+    width: 178vh;
+    top: 50%;
+    left:50%;
+     -moz-transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%) ;
+    -o-transform: translateY(-50%) translateX(-50%);
+    z-index: -1;
+}
+   
+
+    .foot_p{
+        color: rgb(255, 255, 255);
+        font-size: 23px;
+        font-family: 'Stardos Stencil', cursive;
+        -webkit-text-stroke:1.3px rgba(0, 0, 0, 0.822);
+            -moz-text-stroke:1px rgba(0, 0, 0, 0.582);
+            -o-text-stroke:1px rgba(0, 0, 0, 0.582);
+            /* prefijos para que la pagina funcione con cualquier navegador*/
+}
+
+
+#bar:checked ~ .cab_nav{
+    transform: translateX(0%);
+    transition: all 1.5s ease-out;
+    background-color: rgba(17, 1, 4, 0.8);
+}
+}
