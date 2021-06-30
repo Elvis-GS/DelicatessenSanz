@@ -343,14 +343,15 @@ header{
 font-size: 26px;
     text-align: center;
     margin: 15.5px;
-    -webkit-text-stroke: 1.8px rgb(0, 0, 0);
-    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 1.8px rgb(245, 0, 134,0.89);
+    color: rgb(0 0 0);
 } 
 .parrafo_cont1, .parrafo_cont2 {
     font-size: 22.2px;
     text-align: center;
     margin: 15.5px;
-    -webkit-text-stroke: 1.8px rgb(0, 0, 0, 0.932);
+    -webkit-text-stroke: 1.6px rgb(245, 0, 134,0.89);
+    color: rgb(0 0 0);
 }
  #bar:checked ~ .cab_nav{
     transform: translateX(0%);
